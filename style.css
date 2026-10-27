@@ -3,11 +3,11 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.cabecera {
+.hero {
     display: flex;
     align-items: center;
-    gap: 10px;
     padding: 10px;
+    gap: 10px;
 }
 
 .foto-perfil {
@@ -15,6 +15,7 @@ body {
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 .presentacion-h1 {
