@@ -47,35 +47,21 @@ SECCIÓN: CONTENEDOR DE INFORMACIÓN (TECNOLOGÍAS Y PROYECTOS)
   display: flex;
   justify-content: center;
   gap: 40px; 
+  padding: 0 20px;
+  flex-wrap: wrap;
 }
-
-/* FAMILIA: TECNOLOGÍAS */
-.tecnologias-titulo {
+/* FAMILIA: TECNOLOGÍAS Y PROYECTOS */
+.tecnologias-titulo, .proyectos-titulo {
   margin-top: 20px;
   color: #7aa2f7;
+  text-align: center;
 }
-
-.tecnologias-lista {
+.tecnologias-lista, .proyectos-lista {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;       
   flex-direction: column; 
+  align-items: center;
   gap: 10px;
 }
-
-/* FAMILIA: PROYECTOS */
-.proyectos-titulo {
-  margin-top: 20px;
-  color: #7aa2f7;
-}
-
-.proyectos-lista {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
